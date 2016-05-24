@@ -1,3 +1,28 @@
 html {
-  background-color: red;
+  background-color: #111;
+  color: #bbb;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: solid 1px #555;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.header a {
+  text-decoration: none;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #bbb;
 }
