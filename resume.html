@@ -1,0 +1,320 @@
+<!DOCTYPE HTML/>
+<html>
+  <style>
+    html, ul, li, p {
+      font-family: "Arial";
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    html { 
+      width: 8.5in;
+      height: 11in;
+      margin: 0 auto;
+      margin-top: 1in;
+      margin-bottom: 1in;
+    }
+
+    .resume-header {
+      padding-bottom: 10px;
+      margin-bottom: 2px;
+      border-bottom: 1px solid #AAA;
+    }
+
+    .title, .bold {
+      font-weight: 700;
+    }
+
+    ul {
+      padding-top: 0.5em;
+      padding-left: 2em;
+      margin: 0 auto;
+    }
+
+    h1 { 
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    
+    h2 { 
+      margin: 0 auto;
+      margin-bottom: 0.25em;
+      margin-left: 0.3em;
+      font-size: 25px;
+    }
+
+    p {
+      margin: 0px;
+    }
+
+    .section { 
+      margin-bottom: 0.7em;
+      margin-top: 0.7em;
+    }
+
+    .section-content {
+      margin-left: 10px;
+    }
+
+    .section-content>div {
+      margin-bottom: 1em;
+    }
+
+    .links { 
+      padding-left: 0px;
+    }
+
+    .university-name {
+      padding-top: 1em;
+    }
+
+    .links { 
+      padding: 2px;
+    }
+
+    .links-container { 
+      right: 0px;
+    }
+
+    .row-space-between { 
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .row3 {
+      width: 100%;
+      table-layout: fixed;
+      font-weight: bold;
+    }
+
+    td {
+      vertical-align: top;
+    }
+
+    .row2 {
+      width: 100%;
+      table-layout: fixed;
+      font-weight: bold;
+    }
+
+    .row2 td:nth-child(1) {
+      text-align: left;
+    }
+
+    .row2 td:nth-child(2) {
+      text-align: right;
+    }
+
+    .row3 td:nth-child(1) {
+      text-align: left;
+    }
+
+    .row3 td:nth-child(2) {
+      text-align: center;
+    }
+
+    .row3 td:nth-child(3) {
+      text-align: right;
+    }
+
+    .education-info { 
+      width: 100%;
+    }
+    
+    .row4 {
+      width: 100%;
+      table-layout: fixed;
+      font-weight: bold;
+    }
+
+    div.resume-header table {
+      font-weight: normal;
+    }
+
+    /*
+    .row4 td:nth-child(1) {
+
+    }
+
+    .row4 td:nth-child(2) {
+
+    }
+
+    .row4 td:nth-child(3) {
+
+    }
+
+    .row4 td:nth-child(4) {
+      
+    }
+    */
+
+    div {
+      margin: 0px;
+    }
+  </style>
+
+  <div class='resume-header'>
+    <h1 class='name'>Jared Wasinger</h1>
+    <table class='row2'>
+      <tr>
+        <td><span class='title'>Contact: </span>j-wasinger@hotmail.com</td>
+        <td><span class='title github'>Github: </span>github.com/jwasinger</td>
+        <!-- <td><span class='title'>Website:</span>jaredw.io</td> -->
+      <tr>
+    </table>
+  </div>
+  <!--
+  <div class='section'> 
+    <h2>Education</h2>
+    <div class='section-content row-space-between'>
+      <p>
+        Oregon State University: B.S. Computer Science 2012 - present (degree not completed) 
+      </p>
+    </div>
+  </div>
+  -->
+  <div class='section'>
+    <h2>Qualifications</h2>
+    <div class='section-content'>
+      <ul>
+        <li>
+          Experienced with multiple relational and non-relational databases
+        </li>
+        <li>
+          Ability to easily learn new technologies and programming languages
+        </li>
+        <li>
+          Experience using Agile development practices
+        </li>
+        <li>
+          Extensive knowledge of Linux as a development and server environment
+        </li>
+        <li>
+          Experienced with Git and SVN
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='section'>
+    <h2>Work Experience</h2>
+    <div class='section-content'>
+      <!-- Symantec -->
+      <div>
+        <table class='row3'>
+          <tr>
+            <td>Symantec</td>
+            <td>Norton SRE Intern</td>
+            <td>October 2015 - present</td>
+          </tr>
+        </table>
+        <ul class='job-details'>
+          <li>
+            Created a search engine application using Elasticsearch, NodeJS, Python and Go to extract and index internal documentation sources
+          </li>
+          <li>
+            Created SQL Server tables and queries for assigning and managing subnets in Azure IP address spaces
+          </li>
+          <li>
+            Analyzed Jira ticket history to identify trends involving storage errors across Norton cloud services
+          </li>
+          <li>
+            Created visualizations of Nagios alert data using Javascript and D3.js
+          </li>
+        </ul>
+      </div>
+
+      <!-- Feeney -->
+      <div>
+        <table class='row3'>
+          <tr>
+            <td>FW-Novatel</td>
+            <td>SDE Intern</td>
+            <td>March 2015 - September 2015</td>
+          </tr>
+        </table>
+        <ul class='job-details'>
+          <li>
+            Created Python scripts to organize and simplify hundreds of spreadsheets containing customer data
+          </li>
+          <li>
+            Created frontend components for customer-facing IoT device management SaaS application
+          </li>
+          <li>
+            Created SQL queries to retrieve data for reports of device usage and billing statistics
+          </li>
+        </ul>
+      </div>
+
+      <!-- OSU Infrastructure Services -->
+      <div>
+        <table class='row3'>
+          <tr>
+            <td>OSU Network Services</td>
+            <td>Student Software Developer</td>
+            <td>January 2014 - March 2015</td>
+          </tr>
+        </table>
+        <ul class='job-details'>
+          <li>
+            Created a web CRUD application backed by a MySQL database for administration of faculty and student emailing lists
+          </li>
+          <li>
+            Migrated emailing list records from plaintext files into a MySQL database
+          </li>
+          <li>
+            Implemented user interface bugfixes for new university-wide DNS/DHCP administration and device inventory tool
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <table class='row3'>
+          <tr>
+            <td>Oregon State University</td>
+            <td>CS Teaching Assistant</td>
+            <td>September 2013 - January 2014</td>
+          </tr>
+        </table>
+        <ul class='job-details'>
+          <li>
+            Taught labs for introductory Python and C++ classes
+          </li>
+          <li>
+            Tutored students one-on-one to help teach programming concepts
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class='section'>
+    <h2>Projects and Contributions</h2>
+    <div class="section-content">
+      <table class="row2">
+        <tr>
+          <td>Random Network Coding CDN</td>
+          <td>https://github.com/ckennard/rnccdn</td>
+        </tr>
+      </table>
+      <ul>
+        <li>
+          Proof-of-Concept implementation of Random Network Coding algorithm for use in a Content Delivery Network.  
+        </li>
+        <li>
+          Implements the functionality of a caching proxy that optimizes overall network throughput at the cost of a computational overhead.
+        </li>
+      </ul>
+      <table class="row2">
+        <tr>
+          <td>Mobile Websocket Chat Application </td>
+          <td>https://github.com/jwasinger/websocket_chat</td>
+        </tr>
+      </table>
+      <ul>
+        <li>Browser-based websocket chat using NodeJS, MongoDB and Bootstrap to create a responsive user interface</li>
+      </ul>
+    </div>
+  </div>
+</html>
