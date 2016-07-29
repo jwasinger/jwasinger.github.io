@@ -1,0 +1,46 @@
+{
+  "name": "jwasinger.github.io",
+  "homepage": "https://github.com/jwasinger/jwasinger.github.io",
+  "authors": [
+    "Jared Wasinger <j-wasinger@hotmail.com>"
+  ],
+  "description": "Jared Wasinger portfolio site",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-material": "^1.1.0",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8"
+  },
+  "bowerMove": {
+    "angular": {
+      "*.js": "js/libs/"
+    },
+    "angular-material": {
+      "*.js": "js/libs/",
+      "*.css": "css/libs"
+    },
+    "angular-aria": {
+      "*.js": "js/libs/"
+    },
+    "angular-animate": {
+      "*.js": "js/libs/"
+    },
+    "angular-messages": {
+      "*.js": "js/libs/"
+    },
+    "angular-route": {
+      "*.js": "js/libs/"
+    }
+  }
+}
