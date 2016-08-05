@@ -19,7 +19,7 @@
 <div class="projects">
   <div>
     <h2>AngularJS Analytics Dashboard</h2>
-    <p>Analytics dashboard mockup using Angular Material</p>
+    <p>Analytics dashboard mockup using Angular Material and D3.js</p>
     <div class="spread">
       <md-button class="md-primary" ng-href="http://jaredw.io/dashboard" target="_blank">Live Demo</md-button>
       <md-button class="md-primary" ng-href="https://github.com/jwasinger/material-dashboard" target="_blank">Github</md-button>
@@ -43,8 +43,8 @@
     <h2>Jammer- Mobile-oriented Web App</h2>
     <p>Create and join musical meetups!</p>
     <ul>
-      <li>JQuery and Bootstrap on the frontend</li>
-      <li>Nodejs/Express and MongoDB on the backend</li>
+      <li>Use of JQuery and Bootstrap on the frontend, and NodeJS/Express on the backend</li>
+      <li>MongoDB is used for storing user account credentials and session metadata</li>
     </ul>
     <div class="spread">
       <md-button class="md-primary" ng-href="https://github.com/jwasinger/Jammer-App" target="_blank">Github</md-button>
@@ -52,13 +52,16 @@
   </div>
   <div>
     <h2>Random Network Coding- CDN</h2>
-    <p>A method to optimize throughput across a flow network with multiple sources and sinks</p>
+    <p>A method to optimize traffic throughput across a network with multiple servers, clients with intermediary nodes</p>
     <ul>
       <li>
         Proof-of-Concept implementation of Random Network Coding algorithm for use in a Content Delivery Network.
       </li>
       <li>
-        Implements the functionality of a downstream cache that optimizes overall network throughput at the cost of a computational overhead on both client and server.
+        Implements the functionality of a caching server that optimizes overall network throughput.
+      </li>
+      <li>
+        See <a href="https://github.com/jwasinger/rnccdn/README.md">here</a> for a more detailed description of Random Network Coding.
       </li>
     </ul>
     <div class="spread">
@@ -70,7 +73,7 @@
     <p>Mobile web application for text chat</p>
     <ul>
       <li>Javascript/HTML/CSS with Bootstrap and JQuery on the frontend</li>
-      <li>NodeJS/Express on the server-side</li>
+      <li>NodeJS/Express on the server-side with</li>
       <li>MongoDB for storing user account info and active user sessions</li>
       <li>Word-cloud visualization using D3 for graphing and Elasticsearch to retrieve all frequently occuring terms</li>
     </ul>
