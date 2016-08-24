@@ -4,10 +4,9 @@
   .controller("AppCtrl", function($scope) {
     $scope.currentNavItem = 'page1';
     $scope.templates = [
-      {url: "/templates/about.html.tmpl", name:"About"},
-
-      {url: "/templates/resume.html.tmpl", name:"Resume"},
-      {url: "/templates/projects.html.tmpl", name:"Projects/Portfolio"},
+      {url: "/templates/jared-wasinger.html", name:"About"},
+      {url: "/templates/jared-wasinger-resume.html", name:"Resume"},
+      {url: "/templates/jared-wasinger-projects.html", name:"Projects/Portfolio"},
     ]
   });
 })();
