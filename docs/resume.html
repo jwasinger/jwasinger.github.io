@@ -6,6 +6,10 @@
       font-size: 16px;
       font-weight: 500;
     }
+    
+    th {
+      text-align: left;
+    }
 
     html { 
       width: 8.5in;
@@ -89,6 +93,10 @@
       font-weight: bold;
     }
 
+    .row3-nobold {
+      font-weight: normal;
+    }
+
     td {
       vertical-align: top;
     }
@@ -107,15 +115,15 @@
       text-align: right;
     }
 
-    .row3 td:nth-child(1) {
+    .row3 *:nth-child(1) {
       text-align: left;
     }
 
-    .row3 td:nth-child(2) {
+    .row3 *:nth-child(2) {
       text-align: center;
     }
 
-    .row3 td:nth-child(3) {
+    .row3 *:nth-child(3) {
       text-align: right;
     }
 
@@ -179,19 +187,19 @@
     <div class='section-content'>
       <ul>
         <li>
-          Experienced with SPA development using AngularJS and Angular Material
+          Experience creating server provisioning processes
         </li>
         <li>
-          Knowledge of Agile development practices
+          Knowledge of Modern web design techniques
         </li>
         <li>
-          Experienced with a variety of SQL and NoSQL databases
+          Extensive knowledge of Linux
         </li>
         <li>
-          Extensive knowledge of Linux as a development and server environment
+          Experience using relational and NoSQL databases
         </li>
         <li>
-          Experienced with using Git for version control
+          Experience with source control using Git
         </li>
       </ul>
     </div>
@@ -210,13 +218,16 @@
         </table>
         <ul class='job-details'>
           <li>
-            Created a search engine application using Elasticsearch, NodeJS and Python to extract and index relevant SRE team documentation.
+            Created Jenkins build pipeline for Docker container images
           </li>
           <li>
-            Created TSQL queries to subnet large IP address blocks
+            Created search engine application to index team documentation from multiple web sources
           </li>
           <li>
-            Analyzed Jira ticket history to identify trends involving storage errors across Norton cloud services
+            Analyzed alert ticket history to identify error trends
+          </li>
+          <li>
+            Created SQL queries to subnet and assign IP address blocks
           </li>
         </ul>
       </div>
@@ -232,13 +243,13 @@
         </table>
         <ul class='job-details'>
           <li>
-            Created Python scripts to organize and simplify hundreds of spreadsheets containing customer data
+            Created Python scripts to organize device inventory spreadsheets
           </li>
           <li>
-            Created frontend components for customer-facing IoT device management SaaS application
+            Created frontend components for customer-facing SaaS application
           </li>
           <li>
-            Created SQL queries to retrieve data for reports of device usage and billing statistics
+            Created queries to retrieve customer billing information and cost breakdown
           </li>
         </ul>
       </div>
@@ -254,17 +265,16 @@
         </table>
         <ul class='job-details'>
           <li>
-            Created a web CRUD application backed by a MySQL database for administration of faculty and student emailing lists
+            Created a web application for administration of university emailing lists
           </li>
           <li>
-            Migrated emailing list records from plaintext files into a MySQL database
+            Migrated mailing list records from plaintext files into a MySQL database
           </li>
           <li>
-            Implemented user interface bugfixes for new university-wide DNS/DHCP administration and device inventory tool
+            Designed frontend components for university DNS/DHCP administration tool
           </li>
         </ul>
       </div>
-
       <div>
         <table class='row3'>
           <tr>
@@ -285,6 +295,27 @@
     </div>
   </div>
   <div class='section'>
+    <h2>Technology</h2>
+    <table class="section-content row3 row3-nobold" style="width: 100%;">
+      <tr style="width: 100%">
+        <th>Web Frameworks</th>
+        <th>Databases</th>
+        <th>Programming Languages</th>
+      </tr>
+      <tr style="width: 100%;">
+        <td style="width: 33.333%;">
+          NodeJS, AngularJS 1, D3.js
+        </td>
+        <td style="width: 33.333%;">
+          Elasticsearch, MongoDB, MySQL
+        </td>
+        <td style="width: 33.333%;">
+          Python, Java, Javascript, Go
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class='section'>
     <h2>Projects and Contributions</h2>
     <div class="section-content">
       <table class="row2">
@@ -303,20 +334,6 @@
       </ul>
       <table class="row2">
         <tr>
-          <td>Random Network Coding CDN</td>
-          <td>https://github.com/ckennard/rnccdn</td>
-        </tr>
-      </table>
-      <ul>
-        <li>
-          Proof-of-Concept implementation of Random Network Coding algorithm for use in a Content Delivery Network.  
-        </li>
-        <li>
-          Implements the functionality of a downstream cache that optimizes overall network throughput at the cost of a computational overhead
-        </li>
-      </ul>
-      <table class="row2">
-        <tr>
           <td>AngularJS Analytics Dashboard</td>
           <td>https://github.com/ckennard/rnccdn</td>
         </tr>
@@ -326,17 +343,7 @@
           Proof-of-Concept implementation of Random Network Coding algorithm for use in a Content Delivery Network.  
         </li>
       </ul>
-      <!--
-      <table class="row2">
-        <tr>
-          <td>Mobile Websocket Chat Application </td>
-          <td>https://github.com/jwasinger/websocket_chat</td>
-        </tr>
-      </table>
-      <ul>
-        <li>Browser-based websocket chat using NodeJS, MongoDB and Bootstrap to create a responsive user interface</li>
-      </ul>
-      -->
     </div>
   </div>
+
 </html>
