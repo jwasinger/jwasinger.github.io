@@ -3,7 +3,7 @@
   <style>
     html, ul, li, p {
       font-family: "Arial";
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 500;
     }
     
@@ -36,7 +36,7 @@
     }
 
     h1 { 
-      font-size: 25px;
+      font-size: 3.2em;
       font-weight: bold;
       margin-bottom: 6px;
     }
@@ -58,7 +58,7 @@
     }
 
     .section-content {
-      margin-left: 10px;
+      margin-left: 1.1em;
     }
 
     .section-content>div {
@@ -107,11 +107,11 @@
       font-weight: bold;
     }
 
-    .row2 td:nth-child(1) {
+    .row2 *:nth-child(1) {
       text-align: left;
     }
 
-    .row2 td:nth-child(2) {
+    .row2 *:nth-child(2) {
       text-align: right;
     }
 
@@ -162,23 +162,38 @@
     div {
       margin: 0px;
     }
+
+    ul.header-info li {
+      margin-top: 0.2em;
+    }
   </style>
 
   <div class='resume-header'>
-    <h1 class='name'>Jared Wasinger</h1>
-    <table class='row2'>
+    <table style="width: 100%">
       <tr>
-        <td><span class='title'>Contact: </span>j-wasinger@hotmail.com</td>
-        <td><span class='title github'>Github: </span>github.com/jwasinger</td>
-        <!-- <td><span class='title'>Website:</span>jaredw.io</td> -->
-      <tr>
+        <td style="width: 50%;">
+          <h1>Jared Wasinger</h1>
+        </td>
+        <td style="width: 50%;">
+          <ul class="header-info" style="float: right; list-style-type: none;">
+            <li><b>Contact: </b>j-wasinger@hotmail.com</li>
+            <li><b>Github: </b>https://github.com/jwasinger</li>
+            <!--<li><b>Website: </b>http://jwasinger.github.io</li>-->
+            <li><b>Location: </b>Corvallis, OR</li>
+          </ul>
+          <!-- <td><span class='title'>Website:</span>jaredw.io</td> -->
+        </td>
+      </tr>
     </table>
   </div>
   <div class='section'> 
     <h2>Education</h2>
-    <div class='section-content row-space-between'>
+    <div class='section-content'>
       <p>
-        Oregon State University: B.S. Computer Science 2012 - August 2017 (expected)
+        <b>B.S. Computer Science</b>:&nbsp;&nbsp; Oregon State University
+      </p>
+      <p>
+       <i>2012 - August 2017 (expected)</i>
       </p>
     </div>
   </div>
@@ -187,16 +202,19 @@
     <div class='section-content'>
       <ul>
         <li>
-          Knowledge of Linux
+          Experienced with virtualization software such as Vagrant and Docker
         </li>
         <li>
-          Experienced with virtualization software such as Virtualbox, Vagrant and Docker
+          Knowledge of Configuration Management tools
         </li>
         <li>
-          Experience using relational and non-relational databases
+          Experience with revision control using Git
         </li>
         <li>
-          Knowledge of Modern web design techniques
+          Knowledge of CD/CI using Jenkins
+        </li>
+        <li>
+          Experience with relational and NoSQL databases
         </li>
       </ul>
     </div>
@@ -248,7 +266,7 @@
             Created frontend components for customer-facing SaaS application
           </li>
           <li>
-            Created queries to retrieve customer billing information and cost breakdown
+            Created SQL queries to retrieve customer billing information and cost breakdown
           </li>
         </ul>
       </div>
@@ -297,23 +315,24 @@
     <h2>Technology</h2>
     <table class="section-content row3 row3-nobold" style="width: 100%;">
       <tr style="width: 100%">
-        <th>Web Frameworks</th>
+        <th>Operating Systems</th>
         <th>Databases</th>
-        <th>Programming Languages</th>
+        <th>Web Frameworks</th>
       </tr>
       <tr style="width: 100%;">
         <td style="width: 33.333%;">
-          NodeJS, Django, LAMP
+          CentOS/RHEL, Ubuntu
         </td>
         <td style="width: 33.333%;">
           Elasticsearch, MongoDB, MySQL
         </td>
         <td style="width: 33.333%;">
-          Python, Java, Javascript, Go
+          Django, NodeJS, LAMP
         </td>
       </tr>
     </table>
   </div>
+  <!--
   <div class='section'>
     <h2>Projects and Contributions</h2>
     <div class="section-content">
@@ -331,18 +350,8 @@
           Use of service-based architecture to perform extraction, transformation and streaming content 
         </li>
       </ul>
-      <table class="row2">
-        <tr>
-          <td>AngularJS Analytics Dashboard</td>
-          <td>https://github.com/ckennard/rnccdn</td>
-        </tr>
-      </table>
-      <ul>
-        <li>
-          Proof-of-Concept implementation of Random Network Coding algorithm for use in a Content Delivery Network.  
-        </li>
-      </ul>
     </div>
   </div>
+  -->
 
 </html>
